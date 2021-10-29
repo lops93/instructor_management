@@ -10,7 +10,7 @@
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Name</th>
-      <th scope="col">Phone Number</th>
+      <th scope="col">Course</th>
       <th scope="col">actions</th>
     </tr>
   </thead>
@@ -19,7 +19,7 @@
     <tr>
       <th scope="row">{{ $instructor->id}}</th>
       <td>{{ $instructor->fullname}}</td>
-      <td>{{ $instructor->phone_number}}</td>
+      <td>{{ $instructor->course}}</td>
       <td><a href="{{ route('instructors.edit', $instructor) }}" class="btn btn-primary">edit</a>
       <a href="{{ route('instructors.destroy', $instructor) }}" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete?')">delete</a></td>
     </tr>

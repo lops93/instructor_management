@@ -13,7 +13,7 @@ const Footer = () => {
       <FooterContent>
         <FooterContainer>
           <Box sx={{ maxWidth: "400px" }}>
-            <FooterTitle>Quem Somos</FooterTitle>
+            <FooterTitle>About us</FooterTitle>
             <Typography variant={"body2"} sx={{ marginTop: "16px" }}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
               deserunt ipsum quaerat consectetur magni repellat quasi molestias
@@ -22,7 +22,7 @@ const Footer = () => {
             </Typography>
           </Box>
           <div>
-            <FooterTitle>Baixe nosso app</FooterTitle>
+            <FooterTitle>Download</FooterTitle>
             <Apps>
               <li>
                 <a href={"/"} target={"_blank"} rel={"noopener noreferrer"}>

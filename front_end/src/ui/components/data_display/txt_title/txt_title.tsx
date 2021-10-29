@@ -1,5 +1,5 @@
 import React  from "react";
-import { TitleContent, TitleStyle, SubTitleStyle } from './txt_title.style';
+import { TitleContent, TitleStyle, SubTitleStyle, TitleLogo } from './txt_title.style';
 
 interface Txt_Titleprops{
     title:string;
@@ -8,6 +8,7 @@ interface Txt_Titleprops{
 
 const Txt_Title : React.FC<Txt_Titleprops> = (props) => {
     return <TitleContent>
+        <TitleLogo src={"/img/logos/coruja_teacher.png"} />
         <TitleStyle>{props.title}</TitleStyle>
         <SubTitleStyle>{props.subtitle}</SubTitleStyle>
     </TitleContent>;
